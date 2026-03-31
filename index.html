@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Practice Worksheet - B1+</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #334155; 
+            background-color: #f8fafc;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .worksheet-container {
+            max-width: 210mm; /* A4 width */
+            margin: 2rem auto;
+            padding: 15mm;
+            background: white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2.part-title {
+            font-family: 'Playfair Display', serif;
+        }
+
+        h2.part-title {
+            color: #1e40af; 
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #93c5fd; 
+            padding-bottom: 6px;
+            margin-top: 30px;
+        }
+
+        .reading-box {
+            background-color: #f8fafc;
+            border-left: 4px solid #3b82f6;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px;
+        }
+
+        .writing-lines {
+            margin-top: 15px;
+            border-bottom: 1px solid #cbd5e1;
+            height: 28px;
+            width: 100%;
+        }
+
+        .word-bank {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            padding: 16px;
+            background-color: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        .word-bank span {
+            font-weight: 600;
+            color: #0f172a;
+            letter-spacing: 0.5px;
+        }
+
+        .kwt-question {
+            margin-bottom: 20px;
+        }
+        
+        .kwt-question p {
+            margin: 0 0 5px 0;
+        }
+
+        .kwt-input {
+            display: inline-block;
+            width: 250px;
+            border-bottom: 1px solid #334155;
+            margin: 0 8px;
+        }
+
+        /* --- PRINT SETTINGS --- */
+        @media print {
+            @page {
+                margin: 20mm 15mm 20mm 20mm; 
+                size: A4;
+            }
+            body, html { 
+                background: transparent !important; 
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+            }
+            .worksheet-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 0 !important; 
+                max-width: 100% !important;
+                width: 100% !important;
+                border-radius: 0 !important;
+                border: none !important;
+            }
+            
+            .keep-together {
+                page-break-inside: avoid !important;
+                break-inside: avoid !important;
+            }
+
+            .page-break-before {
+                page-break-before: always !important;
+                break-before: page !important;
+                padding-top: 10px; 
+            }
+            
+            .reading-box, .word-bank {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="worksheet-container">
+        
+        <!-- HEADER -->
+        <div class="mb-6 pb-4 border-b-2 border-slate-200 flex justify-between items-end">
+            <div>
+                <span class="bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-2 inline-block">B1+ Level</span>
+                <h1 class="text-3xl font-bold text-slate-800 tracking-tight mb-0">Extra Practice Exam</h1>
+                <p class="text-sm text-slate-500 font-medium m-0">Reading, Vocabulary & Grammar</p>
+            </div>
+            <div class="text-sm font-medium text-slate-600 text-right">
+                Name: ______________________<br><br>
+                Date: ______________________
+            </div>
+        </div>
+
+        <!-- ============================================== -->
+        <!-- PART 1: READING COMPREHENSION                  -->
+        <!-- ============================================== -->
+        <div class="keep-together">
+            <h2 class="part-title">PART 1: Reading Comprehension</h2>
+            <p class="text-sm text-slate-600 italic mb-4">
+                Read the text below and answer the questions in your own words. Do not copy sentences directly from the text.
+            </p>
+
+            <div class="reading-box text-sm text-slate-800 space-y-4">
+                <h3 class="font-bold text-lg font-serif">The De-Extinction Debate</h3>
+                <p>
+                    For decades, the idea of bringing extinct animals back to life belonged entirely to science fiction. However, rapid advancements in genetic engineering have turned this fantasy into a very real possibility. Scientists are currently working on projects to resurrect species like the woolly mammoth and the passenger pigeon by extracting preserved DNA from museum artifacts and frozen remains. Supporters of "de-extinction" argue that humans have a moral obligation to fix the damage we have done to the planet, claiming that returning these animals to the wild could restore broken ecosystems.
+                </p>
+                <p>
+                    Despite the excitement surrounding this groundbreaking technology, many conservationists are deeply alarmed. Critics argue that modern environments have adapted since these animals disappeared. Reintroducing a mammoth to a 21st-century landscape could result in the creature acting as an invasive species, potentially destroying the food sources of native wildlife. Furthermore, opponents highlight a major financial concern: de-extinction requires billions of dollars. They firmly believe that this massive funding should be directed toward protecting the thousands of living species that are currently on the edge of extinction, rather than obsessing over animals that died out thousands of years ago.
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <div>
+                    <p class="font-bold text-slate-800 text-sm mb-1">1. According to the text, what is the primary environmental concern critics have about de-extinction?</p>
+                    <div class="writing-lines"></div>
+                    <div class="writing-lines"></div>
+                    <div class="writing-lines"></div>
+                </div>
+                <div>
+                    <p class="font-bold text-slate-800 text-sm mb-1">2. How do opponents of the project view the financial aspect of bringing back extinct animals?</p>
+                    <div class="writing-lines"></div>
+                    <div class="writing-lines"></div>
+                    <div class="writing-lines"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================== -->
+        <!-- PART 2: VOCABULARY IN CONTEXT                  -->
+        <!-- ============================================== -->
+        <div class="keep-together">
+            <h2 class="part-title">PART 2: Vocabulary in Context</h2>
+            <p class="text-sm text-slate-600 italic mb-4">
+                Complete the sentences using the most appropriate word from the box. There is one extra word you do not need to use.
+            </p>
+
+            <div class="word-bank">
+                <span>rivalry</span> &bull; 
+                <span>artifact</span> &bull; 
+                <span>defensive</span> &bull; 
+                <span>transparent</span> &bull; 
+                <span>invasive</span> &bull; 
+                <span>consequences</span> &bull; 
+                <span>outperforming</span> &bull; 
+                <span>repatriate</span> &bull; 
+                <span>preserve</span>
+            </div>
+
+            <ol class="list-decimal pl-5 space-y-5 text-sm text-slate-800 font-medium">
+                <li>Bringing non-native plants into the country can have disastrous ________________________ for local wildlife and ecosystems.</li>
+                <li>The intense ________________________ between the two tech companies pushed them to invent amazing new products.</li>
+                <li>When the manager asked about the mistake, the employee immediately got ________________________ and refused to listen to the criticism.</li>
+                <li>To build trust with the public, the local government must be completely ________________________ about how tax money is spent.</li>
+                <li>Despite being a much smaller team with less funding, they are consistently ________________________ their wealthier opponents this season.</li>
+                <li>During the excavation, the archaeologists discovered a beautifully carved golden ________________________ from the Ming Dynasty.</li>
+                <li>The environmental group is working hard to ________________________ the ancient forest before it is destroyed by construction.</li>
+                <li>Many people believe universal museums should ________________________ stolen historical items back to their original countries.</li>
+            </ol>
+        </div>
+
+        <!-- ============================================== -->
+        <!-- PART 3: GRAMMAR (Use of English)               -->
+        <!-- ============================================== -->
+        <div class="keep-together">
+            <h2 class="part-title">PART 3: Grammar (Key Word Transformations)</h2>
+            <p class="text-sm text-slate-600 italic mb-4">
+                Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. <strong>Do not change the word given.</strong> You must use between two and five words.
+            </p>
+
+            <div class="text-sm text-slate-800">
+                <div class="kwt-question">
+                    <p><strong>1.</strong> I am absolutely sure that the thief didn't break in through the front door.</p>
+                    <p><strong>HAVE</strong></p>
+                    <p>The thief <span class="kwt-input"></span> through the front door.</p>
+                </div>
+
+                <div class="kwt-question">
+                    <p><strong>2.</strong> "Don't touch the glass cases!" the museum guard said to the students.</p>
+                    <p><strong>WARNED</strong></p>
+                    <p>The museum guard <span class="kwt-input"></span> the glass cases.</p>
+                </div>
+
+                <div class="kwt-question">
+                    <p><strong>3.</strong> Perhaps the ancient explorers lost their map in the jungle.</p>
+                    <p><strong>MIGHT</strong></p>
+                    <p>The ancient explorers <span class="kwt-input"></span> their map in the jungle.</p>
+                </div>
+
+                <div class="kwt-question">
+                    <p><strong>4.</strong> "I will definitely return the artifact to the vault tomorrow," the scientist said.</p>
+                    <p><strong>PROMISED</strong></p>
+                    <p>The scientist <span class="kwt-input"></span> the artifact to the vault the next day.</p>
+                </div>
+
+                <div class="kwt-question">
+                    <p><strong>5.</strong> I am certain the Egyptian pharaoh was buried with his gold.</p>
+                    <p><strong>BEEN</strong></p>
+                    <p>The Egyptian pharaoh <span class="kwt-input"></span> with his gold.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================== -->
+        <!-- TEACHER ANSWER KEY (Prints on a separate page) -->
+        <!-- ============================================== -->
+        <div class="page-break-before pt-8">
+            <div class="border-2 border-slate-800 rounded-lg p-8 bg-slate-50">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6 border-b border-slate-300 pb-2 font-serif">Teacher's Answer Key</h2>
+                
+                <div class="mb-6">
+                    <h3 class="font-bold text-blue-700 uppercase tracking-widest text-sm mb-2">Part 1: Reading Comprehension</h3>
+                    <p class="text-sm text-slate-600 italic mb-2">Note: Accept any answer that correctly paraphrases these main ideas.</p>
+                    <p class="text-sm text-slate-800 mb-2"><strong>1.</strong> Critics worry that bringing back extinct animals could disrupt modern habitats, as the resurrected animals might act like invasive species and consume the food that native animals need to survive.</p>
+                    <p class="text-sm text-slate-800"><strong>2.</strong> Opponents believe it is a waste of money. They argue that the billions of dollars spent on de-extinction should be used to protect animals that are currently alive but in danger of dying out.</p>
+                </div>
+
+                <div class="mb-6">
+                    <h3 class="font-bold text-blue-700 uppercase tracking-widest text-sm mb-2">Part 2: Vocabulary</h3>
+                    <ul class="text-sm text-slate-800 space-y-1 font-medium pl-0 list-none">
+                        <li><strong>1.</strong> consequences</li>
+                        <li><strong>2.</strong> rivalry</li>
+                        <li><strong>3.</strong> defensive</li>
+                        <li><strong>4.</strong> transparent</li>
+                        <li><strong>5.</strong> outperforming</li>
+                        <li><strong>6.</strong> artifact</li>
+                        <li><strong>7.</strong> preserve</li>
+                        <li><strong>8.</strong> repatriate</li>
+                        <li class="text-slate-500 italic mt-2">*(Extra word: invasive)*</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-blue-700 uppercase tracking-widest text-sm mb-2">Part 3: Grammar (Key Word Transformations)</h3>
+                    <ul class="text-sm text-slate-800 space-y-2 font-medium pl-0 list-none">
+                        <li><strong>1.</strong> can't have broken in <span class="text-slate-500 font-normal italic">(or couldn't have broken in)</span></li>
+                        <li><strong>2.</strong> warned the students not to touch</li>
+                        <li><strong>3.</strong> might have lost <span class="text-slate-500 font-normal italic">(or may have lost / could have lost)</span></li>
+                        <li><strong>4.</strong> promised to return</li>
+                        <li><strong>5.</strong> must have been buried</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
